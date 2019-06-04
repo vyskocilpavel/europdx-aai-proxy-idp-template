@@ -1,0 +1,19 @@
+{
+    "name": "europdx/simplesamlphp-module-europdx",
+    "description": "A SimpleSAMLphp module providing template for DiscoPower and user-facing parts of the SSP for EuroPDX",
+    "version": "1.0.0-dev",
+    "type": "simplesamlphp-module",
+    "keywords": ["EuroPDX", "europdx", "simplesamlphp"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Pavel Vyskocil",
+            "email": "vyskocilpavel@muni.cz"
+        }
+    ],
+    "require": {
+        "simplesamlphp/composer-module-installer": "~1.0",
+        "simplesamlphp/simplesamlphp": "~1.17",
+        "cesnet/simplesamlphp-module-perun": "~3.0"
+    }
+}
