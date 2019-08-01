@@ -66,8 +66,6 @@ if (!empty($this->getPreferredIdp())) {
     echo showEntry($this, $this->getPreferredIdp(), true);
     echo '</div>';
 
-
-    echo getOr();
 }
 
 echo '<div class="row">';

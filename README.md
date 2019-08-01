@@ -7,4 +7,4 @@
 
 Template for EurOPDX AAI Proxy IdP component
  ## Instalation
- `php composer.phar require `
+ `composer require europdx/simplesamlphp-module-europdx`
