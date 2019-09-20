@@ -32,7 +32,9 @@ if(!empty($this->data['htmlinject']['htmlContentPost'])) {
     </div>
     <div class="row" style="text-align: center">
         <div class="col-md-12 copyright">
-            <p> © 1991– 2018 | EuroPDX - <a href="mailto:contact@europdx.eu"> contact@europdx.eu </a></p>
+            <p> © 1991– <?php echo date("Y"); ?> | EuroPDX -
+                <a href="mailto:contact@europdx.eu"> contact@europdx.eu </a>
+            </p>
         </div>
     </div>
 	
