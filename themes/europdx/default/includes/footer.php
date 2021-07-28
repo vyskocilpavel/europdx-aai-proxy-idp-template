@@ -1,8 +1,11 @@
 <?php
-if(!empty($this->data['htmlinject']['htmlContentPost'])) {
-	foreach($this->data['htmlinject']['htmlContentPost'] AS $c) {
-		echo $c;
-	}
+
+declare(strict_types=1);
+
+if (! empty($this->data['htmlinject']['htmlContentPost'])) {
+    foreach ($this->data['htmlinject']['htmlContentPost'] as $c) {
+        echo $c;
+    }
 }
 ?>
 </div><!-- #content -->
@@ -32,7 +35,7 @@ if(!empty($this->data['htmlinject']['htmlContentPost'])) {
     </div>
     <div class="row" style="text-align: center">
         <div class="col-md-12 copyright">
-            <p> © 1991– <?php echo date("Y"); ?> | EuroPDX -
+            <p> © 1991– <?php echo date('Y'); ?> | EuroPDX -
                 <a href="mailto:contact@europdx.eu"> contact@europdx.eu </a>
             </p>
         </div>
